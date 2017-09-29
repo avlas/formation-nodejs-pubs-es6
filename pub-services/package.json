@@ -1,0 +1,29 @@
+{
+    "name": "pub-services",
+    "version": "1.0.0",
+    "description": "Module qui expose le metier des Services / Models ",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avlas/formation-nodejs-pubs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/avlas/formation-nodejs-pubs/issues"
+    },
+    "homepage": "https://github.com/avlas/formation-nodejs-pubs#readme",
+    "dependencies": {
+        "lodash": "^4.17.4",
+        "moment": "^2.18.1"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^3.5.3"
+    }
+}

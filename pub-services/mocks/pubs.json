@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Arawak",
+        "owner": {
+            "firstName": "Nicolas",
+            "lastName": "Hodicq",
+            "mail": "nhodicq@bewizyu.com"
+        },
+        "openDays": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 10,
+            "end": 1
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Triple Karmeliet"
+            }
+        ]
+    },
+    {
+        "name": "AVL",
+        "owner": {
+            "firstName": "avl",
+            "lastName": "avl",
+            "mail": "avl@avl.com"
+        },
+        "openDays": [
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ],
+        "openHours": {
+            "start": 18,
+            "end": 3
+        },
+        "beers": [
+            {
+                "type": "Blonde",
+                "name": "Karmeliet"
+            }
+        ]
+    }
+]

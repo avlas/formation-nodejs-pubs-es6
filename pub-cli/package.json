@@ -1,0 +1,31 @@
+{
+    "name": "pub-cli",
+    "version": "1.0.0",
+    "description": "APP qui appel les services expose par Module pub-services",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/avlas/formation-nodejs-pubs.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/avlas/formation-nodejs-pubs/issues"
+    },
+    "homepage": "https://github.com/avlas/formation-nodejs-pubs#readme",
+    "dependencies": {
+        "pub-services": "../pub-services"
+    },
+    "devDependencies": {
+        "commander": "^2.11.0",
+        "lodash": "^4.17.4"
+    },
+    "bin": {
+        "pub-cli": "bin/index.js"
+    },
+    "preferGlobal": "true"
+}
